@@ -2,8 +2,8 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
-        <h1>about us</h1>
+    <div  className="section about-section"  >
+        <h1 className="section-title" >about us</h1>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
         repudiandae architecto qui adipisci in officiis, aperiam sequi atque
         perferendis eos, autem maiores nisi saepe quisquam hic odio consectetur
