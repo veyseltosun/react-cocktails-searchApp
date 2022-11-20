@@ -4,11 +4,28 @@ import logo from "../logo.svg"
 
 function Navbar() {
   return (
-    <div>
+    <nav className='navbar'>
 
-      <h2>Navbar comp</h2>
+      <div className="nav-center">
+        <Link to="/">
+          <img src={logo} alt="coctail db logo" className = "logo"></img>
+        </Link>
 
-    </div>
+        <ul className='nav-links'>
+
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+
+        </ul>
+
+      </div>
+
+     
+    </nav>
   )
 }
 
